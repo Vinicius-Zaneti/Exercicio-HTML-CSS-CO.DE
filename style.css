@@ -105,3 +105,55 @@
     font-weight: 600;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 900px) {
+
+    .geral{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--azulescuro);
+        height: 800px;
+    }
+
+    .esquerda{
+        display: none;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    .senha{
+        padding: 15px 0;
+        display: flex;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .inputs{
+        width: 100%;
+    }
+    .infos{
+        width: 100%;
+    }
+    .senha{
+        padding-left: 150px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    .form{
+        width: 60vw;
+    }
+
+    .inputs{
+        width: 100%;
+    }
+    .infos{
+        width: 100%;
+    }
+}
