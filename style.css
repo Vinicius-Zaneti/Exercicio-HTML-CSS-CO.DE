@@ -109,7 +109,7 @@
 @media screen and (max-width: 900px) {
 
     .geral{
-        flex-direction: column-reverse;
+        /* flex-direction: column-reverse; */
         align-items: center;
         justify-content: center;
         background-color: var(--azulescuro);
@@ -133,12 +133,10 @@
 
 @media screen and (min-width: 900px) {
 
-    .inputs{
+    .inputs, .infos{
         width: 100%;
     }
-    .infos{
-        width: 100%;
-    }
+
     .senha{
         padding-left: 150px;
     }
@@ -150,10 +148,16 @@
         width: 60vw;
     }
 
-    .inputs{
+    .inputs, .infos{
         width: 100%;
     }
-    .infos{
-        width: 100%;
+
+}
+
+@media screen and (max-width: 270px) {
+    
+    .logo img{
+        width: 100vw;
     }
 }
+
